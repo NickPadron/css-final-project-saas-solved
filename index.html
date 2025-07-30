@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <header>
@@ -18,7 +18,7 @@
         </div>
         <div class="nav">
           <a href="#">Home</a>
-          <a href="#">Features</a>
+          <a id="not" href="#">Features</a>
           <a href="#">Learn</a>
           <a href="#">Pricing</a>
           <a href="#">Hire us</a>
@@ -183,8 +183,8 @@
       <form class="form-right">
         <h4>Fill out the form and we'll be in touch as soon as possible</h4>
         <div class="form-row">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
+          <input id="name" type="text" placeholder="First Name" />
+          <input id="name" type="text" placeholder="Last Name" />
         </div>
         <input class="email" type="email" placeholder="Email" />
         <div class="form-row">
@@ -199,15 +199,15 @@
           placeholder="Tell us about your project, needs, and timeline..."
         ></textarea>
         <label class="checkbox">
-          <input type="checkbox" />
+          <input id="checkbox" type="checkbox" />
           Yes, I'd like to receive occasional marketing emails from Front. I
           have the right to opt out at any time.
         </label>
         <div class="policy-links">
-          <a href="#">Privacy policy</a>
-          <a href="#">Terms</a>
+          <a href="#">View privacy policy</a>
+          <a id="not" href="#">View privacy policy</a>
         </div>
-        <input type="submit" value="Submit" />
+        <input id="submitbu" type="submit" value="Submit" />
       </form>
     </section>
 
@@ -220,8 +220,14 @@
             alt="Front logo"
           />
           <div class="add-info">
-            <a href="#">153 Williamson Plaza, Maggiberg</a>
-            <a href="#">+1 (062) 109-9222</a>
+            <div>
+              <img id="footicon" src="/assets/location-arrow.png" />
+              <a href="#">153 Williamson Plaza, Maggiberg</a>
+            </div>
+            <div>
+              <img id="footicon" src="/assets/phone.png" />
+              <a id="not" href="#">+1 (062) 109-9222</a>
+            </div>
           </div>
         </div>
         <div class="footer-nav">
@@ -236,7 +242,7 @@
           <div class="footer-group features">
             <h3>Features</h3>
             <a href="#">Press</a>
-            <a href="#">Release notes</a>
+            <a id="not" href="#">Release notes</a>
             <a href="#">Integrations</a>
             <a href="#">Pricing</a>
           </div>

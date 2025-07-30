@@ -1,3 +1,4 @@
+/* GLOBAL RESETS */
 body {
   margin: 0;
   font-family: inter;
@@ -415,43 +416,62 @@ i {
 
 .form-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 44px;
   max-width: 392px;
   gap: 20px;
 }
 
+#name {
+  width: 186px;
+  border: 1px solid #e6e8f2;
+}
+
 select[name="budget"],
 select[name="country"] {
   width: 186px;
+  border: 1px solid #e6e8f2;
+  color: #828282;
 }
 
 .email {
   width: 383px;
   height: 44px;
+  border: 1px solid #e6e8f2;
 }
 
 input[type="checkbox"] {
   height: 28px;
   width: 25px;
   padding-right: 60px;
+  border: 1px solid #e6e8f2;
 }
 
 textarea {
   min-height: 100px;
   resize: vertical;
+  border: 1px solid #e6e8f2;
 }
 
 .checkbox {
   display: flex;
   align-items: center;
   gap: 10px;
+  color: #828282;
+}
+
+#checkbox {
+  color: #828282;
 }
 
 .policy-links {
   display: flex;
   gap: 10px;
-  padding-left: 30px;
+  align-self: center;
+}
+
+#submitbu {
+  align-self: center;
 }
 
 .test-pfp {
@@ -473,12 +493,14 @@ textarea {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 251px;
 }
 
 .add-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: #828282;
 }
 
 .footerlogo {
@@ -489,12 +511,26 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   gap: 49px;
+  width: 673px;
 }
 
 .footer-group {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+#footicon {
+  height: 12px;
+  width: 12px;
+}
+
+a:not(#not) {
+  color: #828282;
+}
+
+#not {
+  color: #0000ee;
 }
 
 /* TEXT & BUTTONS */
