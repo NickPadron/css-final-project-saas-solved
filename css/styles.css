@@ -567,3 +567,227 @@ input[type="submit"] {
   height: 48px;
   width: 137px;
 }
+
+.hamburger {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hamburger {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    height: 610px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroleft {
+    width: 100%;
+    justify-items: center;
+  }
+
+  .hero-title {
+    width: 100%;
+    justify-items: center;
+  }
+
+  .pricing-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .pricing-card {
+    width: 90%;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .featuresGrid {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .featureItem {
+    width: 100%;
+  }
+
+  .form {
+    flex-direction: column;
+    height: 990px;
+    gap: 0px;
+  }
+
+  .form-left {
+    flex-direction: row;
+    height: 250px;
+    min-width: 100%;
+    padding: 0px;
+  }
+
+  .form-right {
+    align-self: center;
+  }
+
+  .footer-nav {
+    flex-direction: row;
+    max-width: 415px;
+    flex-wrap: wrap;
+    row-gap: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hamburger {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+  }
+
+  .hero {
+    max-width: 100%;
+    height: 705px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroleft {
+    width: 100%;
+    justify-items: center;
+  }
+
+  .hero-title {
+    width: 100%;
+    justify-items: center;
+  }
+
+  .hero-title {
+    width: 100%;
+    justify-items: center;
+  }
+
+  .pricing-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .why-list {
+    flex-direction: column;
+  }
+
+  .line.left,
+  .line.right {
+    display: none;
+  }
+
+  .li {
+    flex-direction: row;
+  }
+
+  .pricing-card {
+    width: 90%;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .featuresGrid {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .featureItem {
+    width: 100%;
+  }
+
+  .form {
+    flex-direction: column;
+    max-width: 100%;
+    height: 1320px;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  .form-left {
+    position: relative;
+    flex-direction: column;
+    height: 250px;
+    max-width: 90%;
+    padding: 15px;
+    bottom: 80px;
+  }
+
+  .testimonial {
+    width: 100%;
+    align-items: center;
+  }
+
+  .test-profile,
+  .profile {
+    align-self: center;
+    justify-items: center;
+  }
+
+  .form-right {
+    align-self: center;
+    max-width: 85%;
+    padding: 15px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #name {
+    width: 98%;
+    height: 100%;
+  }
+
+  .email {
+    width: 98%;
+  }
+
+  select {
+    min-width: 100%;
+  }
+
+  .footer {
+    justify-content: space-evenly;
+  }
+
+  .address {
+    align-items: center;
+    justify-items: center;
+  }
+
+  .add-info {
+    align-content: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    max-width: 415px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
