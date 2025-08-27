@@ -69,13 +69,12 @@ h1 {
 
 .heroright {
   height: 406px;
-  width: 486px;
 }
 
 .ads {
   position: relative;
   top: -70px;
-  left: 155px;
+  left: 40px;
   border-radius: 30px;
   padding: 10px;
 }
@@ -91,7 +90,7 @@ h1 {
 .google {
   position: relative;
   top: 40px;
-  left: 75px;
+  right: 55px;
   padding: 10px;
 }
 
@@ -106,7 +105,7 @@ h1 {
 .atlas {
   position: relative;
   top: -15px;
-  left: 225px;
+  left: 50px;
 }
 
 #atlas {
@@ -119,7 +118,7 @@ h1 {
 
 .paypal {
   position: relative;
-  left: 55px;
+  right: 40px;
 }
 
 #paypal {
@@ -133,7 +132,7 @@ h1 {
 .asana {
   position: relative;
   top: -90px;
-  left: 390px;
+  left: 190px;
 }
 
 #asana {
@@ -147,7 +146,7 @@ h1 {
 .weave {
   position: relative;
   top: -90px;
-  left: 285px;
+  left: 115px;
 }
 
 #weave {
@@ -161,7 +160,7 @@ h1 {
 .calender {
   position: relative;
   top: -130px;
-  left: 364px;
+  left: 185px;
 }
 
 #calender {
@@ -483,7 +482,7 @@ textarea {
 /* FOOTER */
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 40px 30px;
   font-family: inter;
@@ -617,7 +616,7 @@ input[type="submit"] {
   }
 
   .featuresGrid {
-    width: 60%;
+    width: 90%;
     height: 100%;
     margin: auto;
   }
@@ -648,6 +647,41 @@ input[type="submit"] {
     max-width: 415px;
     flex-wrap: wrap;
     row-gap: 70px;
+  }
+
+  .ads {
+    position: relative;
+    right: 165px;
+  }
+
+  .google {
+    position: relative;
+    right: 145px;
+  }
+
+  .atlas {
+    position: relative;
+    right: 25px;
+  }
+
+  .paypal {
+    position: relative;
+    right: 140px;
+  }
+
+  .asana {
+    position: relative;
+    left: 150px;
+  }
+
+  .weave {
+    position: relative;
+    left: 115px;
+  }
+
+  .calender {
+    position: relative;
+    left: 155px;
   }
 }
 
@@ -789,5 +823,40 @@ input[type="submit"] {
     max-width: 415px;
     flex-wrap: wrap;
     align-items: center;
+  }
+
+  .ads {
+    position: relative;
+    right: 45px;
+  }
+
+  .google {
+    position: relative;
+    right: 125px;
+  }
+
+  .atlas {
+    position: relative;
+    right: 55px;
+  }
+
+  .paypal {
+    position: relative;
+    right: 120px;
+  }
+
+  .asana {
+    position: relative;
+    left: 140px;
+  }
+
+  .weave {
+    position: relative;
+    left: 15px;
+  }
+
+  .calender {
+    position: relative;
+    left: 145px;
   }
 }
